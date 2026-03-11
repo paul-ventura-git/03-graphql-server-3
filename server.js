@@ -69,7 +69,7 @@ const server = new ApolloServer({
   resolvers
 });
 
-// 👇 forma correcta en Apollo v4
+// forma correcta en Apollo v4
 const { url } = await startStandaloneServer(server, {
   listen: { port: 4000 }
 });
